@@ -2,6 +2,7 @@
 const {img, title , className,style,index} = Astro.props
 import Text from "../system/Text.astro";
 
+
 ---
 
 <div
@@ -12,4 +13,4 @@ import Text from "../system/Text.astro";
   `   
 >
   <img src={img} alt="" class="w-full h-[270px] object-cover rounded-[5.26px] mb-2 max-sm:h-[240px]" />
-  <Text type="regular" class="text-black text-center">
+  <Text type="regular" class="text-black text-center">{title}</Text>

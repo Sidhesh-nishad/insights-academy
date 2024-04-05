@@ -160,7 +160,7 @@ const activePath = Astro.url.pathname
                   borderBottom: j >= item?.submenu?.length - 1 ? 'none' : '1px solid rgba(255, 255, 255, 0.2)'
                 }}>
                   <a
-                    href={subitem.link}
+                    href={subitem.link} 
                     class:list={[
                       "text-white font-semibold hover:underline font-display",
                       subitem.link === activePath && 'text-primary'
